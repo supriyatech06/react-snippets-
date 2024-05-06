@@ -1,0 +1,49 @@
+body{
+    background-color:lightblue;
+   
+}
+
+.counter{
+  margin-top: 15%;
+
+   
+  
+}
+
+.inc{
+    margin-right: 14px;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    height: 25px;
+    cursor:pointer;
+}
+
+.dec{
+    margin-right: 14px;
+    background-color: magenta;
+    border: none;
+    border-radius: 5px;
+    height: 25px;
+    cursor:pointer;
+}
+
+.reset{
+    background-color: blueviolet;
+    border: none;
+    border-radius: 5px;
+    height: 25px;
+    cursor:pointer;
+   
+    
+
+}
+
+.reset:disabled{
+    background-color: rgb(81, 30, 221);
+    border: none;
+    border-radius: 5px;
+    height: 25px;
+    cursor: none;
+}
+
